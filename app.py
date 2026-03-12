@@ -6,6 +6,12 @@ from googletrans import Translator
 from streamlit_lottie import st_lottie
 import json
 
+st.set_page_config(
+    page_title="Analizador de sentimientos en texto",
+    page_icon=":)",
+    layout="wide"
+)
+
 st.title('Análizador de Sentimientos en Texto')
 image = Image.open('emoticones.jpg')
 st.image(image)
